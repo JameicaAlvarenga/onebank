@@ -3,12 +3,13 @@ package digio.onebank
 
 class Pessoa {
     var nome: String = "Jam"
-    var cpf: String = "12345678923"
+    var cpf: String = "123.456.789-23"
+    private set
 }
 
 fun main(){
-    val jam = Pessoa()
+    val jame = Pessoa()
 
-    println(jam.nome)
-    println(jam.cpf)
+    println(jame.nome)
+    println(jame.cpf)
 }
